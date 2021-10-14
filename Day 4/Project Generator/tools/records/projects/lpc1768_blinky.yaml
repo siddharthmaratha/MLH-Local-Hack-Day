@@ -1,0 +1,48 @@
+common:
+    # Output - exe or lib
+    # output:
+    #     - lib
+    # Tools supported by this project - optional
+    tools_supported:
+        - iar_arm
+        - make_gcc_arm
+        - coide
+        - uvision
+    # Choose a debugger
+    # debugger:
+    #     - j-link
+    # export_dir:
+    #     - projects/{tool}_{target}/{project_name}
+    target:
+        - mbed-lpc1768
+    includes:
+        - examples/blinky
+    sources:
+        example:
+        - examples/blinky/main.cpp
+    macros:
+        - TARGET_LPC1768
+        - TARGET_M3
+        - TARGET_NXP
+        - __CORTEX_M3
+        - __MBED__=1
+# tool_specific:
+    # iar:
+    #     misc:
+    #         c_flags:
+    #         - --dlib_config
+    #         - --dlib_config
+    #         cxx_flags:
+    #         - --cxx_flags_test
+    #         - --cxx_flags_test
+    #         ld_flags:
+    #         - --misrac2004
+    #         - --misrac2004
+    #         asm_flags:
+    #         - --asm_flags_test
+    #         - --asm_flags_test
+
+    # You can overwrite a projects template
+    # iar:
+    #     template:
+    #             - ./template.ewp

@@ -1,0 +1,8 @@
+common:
+    target:
+        - disco-f407vg
+    includes:
+        - examples/blinky
+    sources:
+        example:
+        - examples/blinky/main.cpp

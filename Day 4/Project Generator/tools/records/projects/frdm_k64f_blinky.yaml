@@ -1,0 +1,6 @@
+common:
+    target:
+        - frdm-k64f
+    sources:
+        example:
+        - examples/blinky/main.cpp
