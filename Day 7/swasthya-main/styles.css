@@ -1,0 +1,93 @@
+    header
+    {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    body
+    {
+        background-image: linear-gradient(to right,#79A9F5,#BBE7FE,#65DFF6);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        padding: 25px 100px 75px 100px;
+    }
+    img
+    {
+        width: 90%;
+        height: 50%;
+        margin: 5px;
+        padding: 10px;10px;10px;10px;
+        border-radius: 30px;10px;10px;10px;
+    }
+    h3
+    {
+        color:white;
+        font-family: 'Glory', sans-serif;
+    }
+
+    h4,h1
+    {
+        color: grey;
+        font-family: 'Glory', sans-serif;
+        text-align: center;
+    }
+    .box1
+    {
+        height: 700px;
+        width: 90%;
+        padding: 10px;10px;10px;10px;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 10px;10px;10px;10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .box2
+    {
+        height: 500px;
+        width: 90%;
+        padding: 10px;10px;10px;10px;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 10px;10px;10px;10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .boxed
+    {
+        height: 3000px;
+        width: 100%;
+        margin: auto;
+        padding: 10px;10px;10px;10px;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 10px;10px;10px;10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .box3
+    {
+        height: 1700px;
+        width: 100%;
+        margin: auto;
+        padding: 10px;10px;10px;10px;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 10px;10px;10px;10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    p,ul,ol
+    {
+        color: grey;
+        font-family: 'Glory', sans-serif;
+        text-align: left;
+    }
+    h2
+    {
+        background-color: #79A9F5;
+        color: white;
+        font-family: 'Glory', sans-serif;
+        text-align: center;
+    }
+    @media screen and ( max-width: 100%)
+    body
+    {
+        position: fixed;
+    }

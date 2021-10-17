@@ -1,0 +1,47 @@
+    body
+    {
+        background-image: linear-gradient(to right,#79A9F5,#BBE7FE,#65DFF6);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        padding: 25px 100px 75px 100px;
+    }
+    img
+    {
+        width: 45%;
+        margin: 5px;
+        padding: 10px;10px;10px;10px;
+        border-radius: 10px;10px;10px;10px;
+        float: left;
+    }
+    h3
+    {
+        color:white;
+        font-family: 'Glory', sans-serif;
+    }
+
+    h4,h1,p
+    {
+        color: grey;
+        font-family: 'Glory', sans-serif;
+        text-align: left;
+    }
+
+    .box1
+    {
+        height: 500px;
+        width: 80%;
+        margin: auto;
+        padding: 10px;10px;10px;10px;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 10px;10px;10px;10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    @media screen and ( max-width: 100%)
+    body
+    {
+        position: fixed;
+    }
+
+    /* donation section */
+    
